@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Survey-form</title>
+       <link rel="stylesheet" href="Survey-form.css">
+    </head>
+    <body>
+     <h1 id="title">Shivanshu CodeCamp Survey Form</h1>
+     <p id="description">
+         This is Shivanshu gupta who is passionate about developing new things.
+         <h2>Register Here</h2>
+     </p>
+     
+     <main id="survey-form">
+        <form>
+         <label>Name</label><br>
+         <input type="text" id="name" placeholder="Enter your name" required>
+         <br>
+         <br>
+         <label>Email</label><br>
+         <input type="email" id="email" placeholder="Enter your email" required>
+         <br>
+         <br>
+         <label>Age</label><br>
+           <input type="number" id="number" min="0" max="100"  placeholder="Enter your age" value="">
+         <br>
+         <br>
+         <div class="dropdown">
+           <label for="Yourself">Choose Yourself:</label><br>
+
+            <select name="Yourself" id="Yourself">
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advance">Advance</option>
+            </select>
+          </div>
+         <br>
+         <br> 
+         <h3>What type of course you want in present?</h3>
+         <input type="radio" value="Web Development" id="Web Development" name="course">
+         <label id="Web Development">Web Development</label><br>
+         <input type="radio" value="Android Development" id="Android Development" name="course">
+         <label id="Android Development">Android Development</label><br>
+         <input type="radio" value="Machine Learning" id="Machine Larning" name="course">
+         <label id="Machine Learning">Machine Learning</label><br>
+         <input type="radio" value="Python Programming" id="Python Programming" name="course">
+         <label id="Python Programming">Python Programming</label>
+         <br>
+         <br>
+         <h3>Which technical course are you interested in Future?</h3>
+         <input type="checkbox" value="Deep Learning" id="Deep Learning" name="course">
+         <label id="Deep Learning">Deep Learning</label>
+         <br>
+         <input type="checkbox" value="C Programming" id="C Programming" name="course">
+         <label id="C Programming">C Programming</label>
+         <br>
+         <input type="checkbox" value="Java Programming" id="Java Programming" name="course">
+         <label id="Java Programming">Java Programming</label>
+         <br>
+         <br>
+         More Suggestion
+         <br> 
+         <input type="text-area" placeholder="Say about Yourself" id="MoreSuggestion" name="MoreSuggestion">
+         <br>
+         <br>
+         <input type="button" id="Submit" value="Submit">
+        </form>
+        </main>
+  </body>
+</html>
